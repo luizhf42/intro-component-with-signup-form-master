@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+    --red: #ff7a7a;
+    --button: #38cc8c;
+    --ad: #6055a5;
+    --input-text: #3e3c49;
+    --input-border: #b9b6d3;
+
+    --font: 'Poppins', sans-serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    padding: 7% 10%;
+    display: flex;
+    align-items: center;
+    font-family: var(--font);
+    height: 100vh;
+    background: var(--red) url(../images/bg-intro-desktop.png) no-repeat center / cover;
+}
