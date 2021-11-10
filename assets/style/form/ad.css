@@ -1,0 +1,18 @@
+.ad {
+    max-width: 100%;
+    display: grid;
+    place-items: center;
+    background: var(--ad);
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 0 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+}
+
+.ad > p {
+    color: var(--white);
+}
+
+.ad strong {
+    font-weight: 600;
+}

@@ -20,23 +20,32 @@
 
   <section class="form">
     <div class="ad">
-      <p><strong>Try it free 7 days</strong> then 120/mo. thereafter</p>
+      <p><strong class="accent">Try it free 7 days</strong> then 120/mo. thereafter</p>
     </div>
     <form class="form-body">
-      <input type="text" class="first-name" placeholder="First Name">
-      <span class="first-name-error error-msg">First Name cannot be empty</span>
+      <div class="first-name">
+        <input type="text" class="first-name-input" placeholder="First Name">
+        <span class="first-name-error error-msg">First Name cannot be empty</span>
+      </div>
 
-      <input type="text" class="last-name" placeholder="Last Name">
-      <span class="last-name-error error-msg">Last Name cannot be empty</span>
+      <div class="last-name">
+        <input type="text" class="last-name-input" placeholder="Last Name">
+        <span class="last-name-error error-msg">Last Name cannot be empty</span>
+      </div>
 
-      <input type="email" class="email" placeholder="Email Address">
-      <span class="email-error error-msg">Looks like this is not an email</span>
+      <div class="email">
+        <input type="email" class="email-input" placeholder="Email Address">
+        <span class="email-error error-msg">Looks like this is not an email</span>
+      </div>
 
-      <input type="password" class="password" placeholder="Password">
-      <span class="password-error error-msg">Password cannot be empty</span>
-      <button class="sign-in">Claim your free trial</button>
+      <div class="password">
+        <input type="password" class="password-input" placeholder="Password">
+        <span class="password-error error-msg">Password cannot be empty</span>
+      </div>
+
+      <button class="sign-in-btn">Claim your free trial</button>
       
-      <p class="terms-advice">By clicking the button, you are agreeing to our <a href="#terms" class="terms">Terms and Services</a></p>
+      <p class="terms-advice">By clicking the button, you are agreeing to our <a href="#terms" class="terms-a">Terms and Services</a></p>
     </form>
   </section>
 </body>

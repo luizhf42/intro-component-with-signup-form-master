@@ -1,16 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 :root {
+    --white: #fff;
     --red: #ff7a7a;
     --button: #38cc8c;
+    --button-border: #25a56e;
     --ad: #6055a5;
     --input-text: #3e3c49;
-    --input-border: #b9b6d3;
+    --grayish-blue: #b9b6d3;
 
     --font: 'Poppins', sans-serif;
 }
 
-* { margin: 0; padding: 0; box-sizing: border-box; }
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: var(--font);}
 
 body {
     padding: 7% 10%;
