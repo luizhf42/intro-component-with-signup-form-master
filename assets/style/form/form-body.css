@@ -13,7 +13,7 @@ form div {
 
 input {
     width: 100%;
-    padding: 10px 15px;
+    padding: 12px 15px;
     border: 1px solid var(--grayish-blue);
     border-radius: 3px;
 }
@@ -22,8 +22,33 @@ input::placeholder {
     font-weight: 600;
 }
 
+.input-error {
+    border-color: var(--red);
+    border-width: 2px;
+    background: url(../../images/icon-error.svg) no-repeat right 10px center;
+}
+
+.input-error::placeholder {
+    color: var(--red);
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .error-msg {
     display: none;
+    color: var(--red);
+    font-style: italic;
+    padding: 4px 2px;
+    font-size: 0.8rem;
+    align-self: flex-end;
+}
+
+.icon-error {
+    position: absolute;
+
 }
 
 .sign-in-btn {
