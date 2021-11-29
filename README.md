@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](aghj)
+- [Solution URL](https://www.frontendmentor.io/solutions/intro-component-w-signup-form-using-html-and-css-EE3k_SWCM)
 - [Live Site URL](https://luizhf42.github.io/intro-component-with-sign-up-form-master)
 
 ## My process
@@ -55,4 +55,4 @@ I will continue improving my HTML and CSS layouts and my programming logic with 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/luizhf42)
+- Frontend Mentor - [@luizhf42](https://www.frontendmentor.io/profile/luizhf42)
