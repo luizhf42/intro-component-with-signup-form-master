@@ -1,0 +1,45 @@
+@media screen and (max-width: 900px) {
+    body {
+        flex-direction: column;
+        padding: 3rem 0;
+        height: auto;
+    }
+
+    .description, .form {
+        min-width: 85%;
+    }
+
+    .description {
+        padding-bottom: 3rem;
+    }
+
+    .title, .subtitle {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 2.5rem;
+        line-height: 2.25rem;
+    }
+
+    .subtitle {
+        padding: 5px;
+    }
+
+    .ad {
+        padding: 15px 40px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .ad > p {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .title {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
