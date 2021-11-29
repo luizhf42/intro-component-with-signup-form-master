@@ -18,9 +18,12 @@
 
 body {
     padding: 7% 10%;
-    display: flex;
-    align-items: center;
     font-family: var(--font);
     height: 100vh;
     background: var(--red) url(../images/bg-intro-desktop.png) no-repeat center / cover;
+}
+
+main {
+    display: flex;
+    align-items: center;   
 }

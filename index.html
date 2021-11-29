@@ -13,42 +13,39 @@
   <link rel="stylesheet" href="assets/style/responsive.css">
   <title>Frontend Mentor | Intro component with sign up form</title>
 </head>
-<body role="main">
-  <section class="description">
-    <h1 class="title">Learn to code by watching others</h1>
-    <p class="subtitle">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
-  </section>
-
-  <section class="form">
-    <div class="ad">
-      <p><strong class="accent">Try it free 7 days</strong> then $20/mo. thereafter</p>
-    </div>
-    <form class="form-body">
-      <div class="first-name input-container">
-        <input type="text" class="first-name-input" placeholder="First Name">
-        <span class="first-name-error error-msg">First Name cannot be empty</span>
+<body>
+  <main>
+    <section class="description">
+      <h1 class="title">Learn to code by watching others</h1>
+      <p class="subtitle">See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.</p>
+    </section>
+    <section class="form">
+      <div class="ad">
+        <p><strong class="accent">Try it free 7 days</strong> then $20/mo. thereafter</p>
       </div>
-
-      <div class="last-name input-container">
-        <input type="text" class="last-name-input" placeholder="Last Name">
-        <span class="last-name-error error-msg">Last Name cannot be empty</span>
-      </div>
-
-      <div class="email input-container">
-        <input type="email" class="email-input" placeholder="Email Address">
-        <span class="email-error error-msg">Looks like this is not an email</span>
-      </div>
-
-      <div class="password input-container">
-        <input type="password" class="password-input" placeholder="Password">
-        <span class="password-error error-msg">Password cannot be empty</span>
-      </div>
-
-      <button class="sign-in-btn">Claim your free trial</button>
-      
-      <p class="terms-advice">By clicking the button, you are agreeing to our <a href="#terms" class="terms-a">Terms and Services</a></p>
-    </form>
-  </section>
+      <form class="form-body">
+        <div class="first-name input-container">
+          <input type="text" class="first-name-input" placeholder="First Name">
+          <span class="first-name-error error-msg">First Name cannot be empty</span>
+        </div>
+        <div class="last-name input-container">
+          <input type="text" class="last-name-input" placeholder="Last Name">
+          <span class="last-name-error error-msg">Last Name cannot be empty</span>
+        </div>
+        <div class="email input-container">
+          <input type="email" class="email-input" placeholder="Email Address">
+          <span class="email-error error-msg">Looks like this is not an email</span>
+        </div>
+        <div class="password input-container">
+          <input type="password" class="password-input" placeholder="Password">
+          <span class="password-error error-msg">Password cannot be empty</span>
+        </div>
+        <button class="sign-in-btn">Claim your free trial</button>
+    
+        <p class="terms-advice">By clicking the button, you are agreeing to our <a href="#terms" class="terms-a">Terms and Services</a></p>
+      </form>
+    </section>
+  </main>
 
   <script src="assets/script/validation.js"></script>
 </body>
