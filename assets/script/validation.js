@@ -5,7 +5,6 @@ var canSubmit = false;
 var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
 signInBtn.addEventListener('click', function(event) {
-    console.log(emailInput.nextElementSibling)
     inputs.forEach(function(inputContainer) {
         if (inputContainer.children[0].value.length <= 0) {
             inputContainer.children[0].classList.add('input-error');
