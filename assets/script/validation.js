@@ -2,7 +2,7 @@ var inputs = document.querySelectorAll('.input-container');
 var emailInput = document.querySelector('.email-input');
 var signInBtn = document.querySelector('.sign-in-btn');
 var canSubmit = false;
-var validRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
+var validRegex = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
 
 signInBtn.addEventListener('click', function(event) {
     inputs.forEach(function(inputContainer) {
